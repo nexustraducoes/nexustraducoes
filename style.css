@@ -51,10 +51,34 @@ body {
   margin-bottom: 40px;
 }
 
-.portal-logo {
+.nexus-logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 0.95;
+  margin-bottom: 12px;
+  user-select: none;
+}
+
+.nexus-logo-main {
   font-size: 2.5rem;
-  margin-bottom: 8px;
-  font-weight: 800;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: var(--text-main);
+  font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+  margin: 0;
+}
+
+.nexus-logo-sub {
+  font-size: 0.75rem;
+  letter-spacing: 0.38em;
+  text-transform: lowercase;
+  color: var(--primary-color, #6366f1);
+  font-weight: 700;
+  margin-top: 2px;
+  font-family: system-ui, -apple-system, sans-serif;
+  display: block;
 }
 
 .portal-subtitle {
